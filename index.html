@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatQuiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" class="header__checkbox" id="open-menu">
+        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="img/CATQUIZ_Logo Negro Carbón.png" alt="">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#profile">¿QUIENES SOMOS?</a></li>
+                <li class="header__nav-item"><a href="#portfolio">PRODUCTOS</a></li>
+                <li class="header__nav-item"><a href="#portfolio">COLECCIONES</a></li>
+                <li class="header__nav-item"><a href="#portfolio">REGALOS</a></li>
+                <li class="header__nav-item"><a href="#portfolio">SALE</a></li>
+                <li class="header__nav-item"><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile" id="profile">
+        <div class="profile__wrapper">
+            <div class="profile__img-container">
+                <img src="img/catquiz img prueba.png" class= "profile__img" alt="">
+            </div>
+            <div class="profile__data-container">
+                <div class="profile__data">
+                    <div class="profile__data-description">
+                        <h1>Joyeria y Accesorios</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste perferendis id laboriosam necessitatibus rem numquam illo quam ab quo ea.</p>
+                    </div>
+                    <div class="profile__skills-container">
+                        <h2>Lorem</h2>
+                        <ul>
+                            <li class="profile__skill">    
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">80</div>
+                                </div>
+                                <span class="profile__skill-name">Lorem</span>
+                            </li>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--60">60</div>
+                                </div>
+                                <span class="profile__skill-name">Lorem</span>
+                            </li>
+                            <li class="profile__skill"> 
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--70">70</div>
+                                </div>
+                                <span class="profile__skill-name">Lorem</span>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">PORTFOLIO SECTION</h2>
+        <div class="portfolio__project-container">
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+        </div>
+    </section>
+    <section class="form" id="contact">
+        <h2 class="form__title">CONTACT US</h2>
+        <form class="form__form">
+            <div class="form__input-container">
+                <label for=""> Nombre
+                    <input type="text" placeholder="John">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for=""> Apellido
+                    <input type="text" placeholder="Doe">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for=""> E-mail
+                    <input type="email" placeholder="johndoe@example.com">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for=""> Mensaje
+                    <textarea name="" id="" placeholder="Your message"></textarea>
+                </label>
+            </div>
+            <div class="form__input-container form--submit">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <strong>CATQUIZ</strong> - Copyright
+    </footer>
+</body>
+</html>
